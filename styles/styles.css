@@ -1,0 +1,22 @@
+.tiles {
+  padding: 2rem;
+  display: flex;
+}
+
+.tile {
+  background-color: black;
+  height: 480px;
+  width: 220px;
+  margin-right: 10px;
+}
+
+.tile:nth-child(even) {
+  margin-top: 40px;
+}
+
+
+@media (min-width: 420px) {
+  .tiles {
+    padding: 5rem 10rem;
+  }
+}
